@@ -1,4 +1,4 @@
-- name: install nginx server
+  - name: install nginx server
     ansible.builtin.package:
       name: nginx
       state: present
